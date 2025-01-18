@@ -27,4 +27,9 @@ void main() {
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
+
+  test('Teste simples de soma', () {
+    int soma(int a, int b) => a + b;
+    expect(soma(2, 3), 5);
+  });
 }
